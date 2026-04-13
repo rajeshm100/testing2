@@ -4,32 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Page</title>
+    <style>
+        h1, h2 {color: blue;}
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1> <br>
+    <h1>HTML Practice Questions</h1>
+    <h2>Add a heading h1 with the text "Hello World".</h2>
+    <h3>Hello World</h3> 
+    <h2>Add a line break between two sentences.</h2>
+    <br>
+    <h2>Insert a paragraph with the text "This is my first paragraph".</h2>
     <p>This is my first paragraph</p>
-    <hr> <pre> 
+    <h3>Add a horizontal line between two paragraphs.</h3>
+    <hr>
+     <pre> 
+        <!-- Create a comment in HTML that says "This is a comment". -->
     <!-- This is a comment -->
+Display text in bold using b and strong.
 <b>bold text using b </b>
 <strong>bold text using strong </strong>
+
+Display text in italic using i and em.
 <i>italics text using i</i>
 <em>italics text using em    </em>
+<h2>Add a subscript and superscript to the text H2O and x².</h2>
 H<sub>2</sub>O
 x<sup>2</sup>
+Create a blockquote with the text "Practice makes perfect".
 <blockquote>  Practice makes perfect.</blockquote>
 
 </pre>
+<h2>Create an ordered list of three fruits.</h2>
 <ol>
     <li> Apple  </li>
     <li> Orange  </li>
     <li> Banana </li>
 </ol>
+<h2>Create an unordered list of three vegetables.</h2>
 <ul>
     <li>  spinnach   </li>
     <li>  cabbage </li>
     <li>  cauliflower </li>
 </ul>
 
+<h2>Nest an ordered list inside an unordered list.</h2>
 <ul>
     <li>  spinnach 
         <ol>
@@ -42,7 +61,7 @@ x<sup>2</sup>
     <li>  cabbage </li>
     <li>  cauliflower </li>
 </ul>
-
+<h1>Use a description list (dl) for Coffee and Milk with descriptions.</h1>
 <dl>
     <dt> Coffee </dt>
     <dd> A brewed drink prepared from roasted coffee beans, the seeds of berries from certain flowering plants in the Coffea genus. </dd>
@@ -51,19 +70,28 @@ x<sup>2</sup>
 
 </dl>
 
+<h2>Create a list with custom numbering starting from 5.</h2>
 <ol start="5">
     <li> Apple  </li>
     <li> Orange  </li>
     <li> Banana </li>
 </ol>
  
+<h2>Create a hyperlink to https://www.google.com.</h2>
 <a href=" https://www.google.com">Google</a>
+
+<h2> Make a link open in a new tab. </h2>
 <a href=" https://www.google.com" target="_blank">Google</a>
+
+<h2>Add an image with alt text "Sample Image".</h2>
 <img src="Untitledd.png" alt="Sample Image">
+<h2>Resize an image to 200px width and 150px height.</h2>
 <img src="Untitled.png" alt="Sample Image" width="200px " height="150px">
+<h2>Make an image clickable as a link.</h2>
 <a href=" https://www.google.com"><img src="Untitled.png" alt="Sample Image" width="200px " height="150px"></a>
 
-<table>
+<h2>Create a table with 2 rows and 2 columns.</h2>
+<table border="1">
     <caption> A table with 2 rows and 2 columns. </caption>
     <thead>
         <tr>
@@ -80,5 +108,131 @@ x<sup>2</sup>
 </tbody>
 
 </table>
+
+<h2>Add a table header row with "Name" and "Age".
+</h2>
+<table border="1">
+<thead>
+    <tr> 
+        <th> Name </th>
+        <th> Age    </th>
+        
+    </tr>
+</thead>
+
+</table>
+
+<h2>Merge two cells using colspan.</h2>
+<table border="1">
+    <caption> Merge two cells using colspan. </caption>
+    <thead>
+        <tr>
+            <th colspan="2">A</th>
+             
+        </tr>
+
+    </thead>
+<tbody>
+    <tr>
+        <td> C </td>
+        <td> D </td>
+    </tr>
+</tbody>
+
+</table>
+
+
+<h2> Merge two rows using rowspan.</h2>
+<table border="1">
+    <caption> Merge two rows using rowspan. </caption>
+    <thead>
+        <tr>
+            <th >A</th>
+            <th>B</th>
+        </tr>
+
+    </thead>
+<tbody>
+    <tr>
+        <td rowspan="2"> C </td>
+        <td> D </td>
+    </tr>
+    <tr>
+        <td> E </td>        
+    </tr>
+</tbody>
+
+</table>
+
+<h2>Add a border to the table. </h2>
+
+<table border="1">
+    <caption> Add a border to the table.
+</caption>
+    <thead>
+        <tr>
+            <th>A</th>
+            <th>B</th>
+        </tr>
+
+    </thead>
+<tbody>
+    <tr>
+        <td> C </td>
+        <td> D </td>
+    </tr>
+</tbody>
+
+</table>
+
+<h2>  Create a form with text input and a submit button. </h2>
+
+<form  >
+    Name: <input type="text" name="name">
+    <input type="button" value="submit">
+
+
+</form>
+
+<h2>Add a password field to the form.</h2>
+<form  >
+    <input type="password" name="password" id="password">
+</form>
+
+<h2>Add radio buttons for gender selection.</h2>
+<form action="">
+    Gender <br>
+    Male
+    <input type="radio" name="gender" value="Male" checked>
+    Female
+    <input type="radio" name="gender" value="Female">
+    Other
+    <input type="radio" name="gender" value="Other">
+</form>
+
+<h2>Add checkboxes for hobbies.</h2>
+<form action="">
+    Hobies <br>
+    Music
+    <input type="checkbox" name="Music" value="Music" >
+    Chess
+    <input type="checkbox" name="Chess" value="Chess">
+    Piano
+    <input type="checkbox" name="Piano" value="Piano">
+</form>
+
+
+<h2>Create a dropdown menu with three options.</h2>
+<form action="">
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+</select>
+
+
+</form>
 </body>
 </html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Practice Questions</title>
+    <style>
+        /* Change the background color of the page to lightblue. */
+        body {background-color: lightblue;} 
+        
+        /* Change the text color of all paragraphs to green. */
+        p {color: green;}
+
+/* Use an ID selector to style one heading. */
+        #h1a { background-color: rgba(0, 0, 255, 0.3);}
+        /* Use a class selector to style multiple paragraphs. */
+
+        .p123 { background-color: rgba(0, 255, 0, 0.3);}
+
+            /* Apply multiple styles (color, font-size, font-family) to a paragraph. */
+        #pm123 { 
+            color: #ff0280; font-size: larger; font-family: 'Courier New', Courier, monospace; 
+        }
+
+        #pa12 {font-family: Arial, Helvetica, sans-serif;}
+
+        /* Make text bold using CSS. */
+        #pb12 {font-weight: bold;}
+
+        /* Add letter-spacing of 5px to a heading. */
+        #h3s {letter-spacing: 5px;}
+
+        /* Add word-spacing of 1cm to a paragraph. */
+        #ps123 { word-spacing: 1cm;}
+
+
+        .fb123 {
+            margin-top: 270px;
+            display: flex;
+            background-color: #ff0280;
+            /* gap: 20px; */
+            justify-content: space-around;
+
+        }
+        .item123 {
+            background-color: aqua;
+            width: 25%;
+            height: 100px;
+
+        }
+        .grid-container {
+  display: grid; /* Establish the grid container */
+  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+  grid-template-rows: repeat(2, 1fr);    /* Two equal rows */
+  gap: 10px; /* Optional: adds space between cells */
+}
+
+/* Optional styling for visibility */
+.grid-item {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+.resizable-div {
+  /* Core properties for resizing */
+  resize: vertical;
+  overflow: auto;
+
+  /* Basic styling to make it visible */
+  width: 300px;
+  min-height: 100px; /* Prevents it from disappearing */
+  max-height: 500px; /* Limits maximum growth */
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: chartreuse  ;
+}
+
+
+    </style>
+</head>
+<body>
+    <pre>
+Change the background color of the page to lightblue.        
+Change the text color of all paragraphs to green.
+
+
+
+    </pre>
+    
+    <h1 id="h1a"> Use an ID selector to style one heading. </h1>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio reiciendis porro exercitationem quidem, tempora fuga in reprehenderit molestias vitae repellendus ab doloremque, soluta aliquam eos modi ipsam nulla nemo rerum.</p>
+
+    <p class="p123">Use a class selector to style multiple paragraphs.</p>
+    <p class="p123">Use a class selector to style multiple paragraphs.</p>
+    <p class="p123">Use a class selector to style multiple paragraphs.</p>
+    <p class="p123">Use a class selector to style multiple paragraphs.</p>
+    <p class="p123">Use a class selector to style multiple paragraphs.</p>
+
+    <p id="pm123">Apply multiple styles (color, font-size, font-family) to a paragraph.</p>
+
+    <p id="pa12" > Change the font-family of a paragraph to Arial. </p>
+
+    <p id="pb12">Make text bold using CSS.</p>
+
+    <h3 id="h3s">Add letter-spacing of 5px to a heading.</h3>
+    <p id="ps123">Add word-spacing of 1cm to a paragraph.</p>
+
+<p style="text-align: center;">Align text to the center of the page.</p>
+
+
+<div style="border: 2px solid black;">Add a 2px solid black border around a div.</div>
+
+<div style="padding: 20px; border: 2px solid black;">Add padding of 20px inside a div.</div>
+
+<div style="margin: 30px; border: 2px solid black;">Add margin of 30px around a div.</div>
+
+
+<div style="border: 2px solid black; border-bottom-color: blue; border-top-color: red; border-right-color: violet;">Create a box with different border colors on each side.</div>
+
+<p style="text-shadow: 2px 2px 4px red;">Add a shadow to text using text-shadow.</p>
+
+<p>Float an image to the right of the text.</p>
+<img src="Untitled.png" style="float: right;">
+<p>Float an image to the right of the text.</p>
+
+<div style="position: absolute; top: 0; right: 0;">Use position: absolute to place a div at the top-right corner.</div>
+ 
+<h2>Create a flexbox container with three items.</h2>
+<div class="fb123"> 
+
+<div class="item123"> Item 1 </div>
+<div class="item123"> Item 2 </div>
+<div class="item123"> Item 3 </div>
+
+</div>
+
+<h1>Use CSS Grid to create a 2x2 layout.</h1>
+<div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+</div>
+
+<h1>Make a div resizable vertically with resize: vertical.</h1>
+
+<div class="resizable-div">1</div>
+
+
+</body>
+</html>
