@@ -2,7 +2,7 @@ HTML and CSS Practice Questions
 HTML Practice Questions
 Create a simple HTML page with a title "My First Page".
 
-Add a heading <h1> with the text "Hello World".
+Add a heading h1 with the text "Hello World".
 
 Insert a paragraph with the text "This is my first paragraph".
 
@@ -10,9 +10,9 @@ Add a horizontal line between two paragraphs.
 
 Create a comment in HTML that says "This is a comment".
 
-Display text in bold using <b> and <strong>.
+Display text in bold using b and strong.
 
-Display text in italic using <i> and <em>.
+Display text in italic using i and em.
 
 Add a subscript and superscript to the text H2O and x².
 
