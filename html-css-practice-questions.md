@@ -26,7 +26,7 @@ Create an unordered list of three vegetables.
 
 Nest an ordered list inside an unordered list.
 
-Use a description list (<dl>) for Coffee and Milk with descriptions.
+Use a description list (dl) for Coffee and Milk with descriptions.
 
 Create a list with custom numbering starting from 5.
 
